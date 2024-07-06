@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ecommerce website</title>
+    <link rel="stylesheet" href="style6.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa-solid fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa-solid fa-times" id="close-btn" onclick="closemenu()"></i>
+
+
+            <img src="icons8-amazon-alexa-logo-48.png" class="logo">
+            <input type="text" class="form-control">
+            <span class="input-group-text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href=""> <i class="fa-solid fa-basket-shopping"></i>
+                    Cart</a></li>
+                <li><a href=""><i class="fa-solid fa-user-plus"></i>
+                    Sign Up</a></li>
+                <li><a href=""><i class="fa-solid fa-right-to-bracket"></i>
+                    Log In</a></li>
+            </ul>
+        </div>
+    </div>
+  <section class="header">
+    <div class="side-menu">
+        <ul>
+            <li>On Sale <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-1</li>
+                    <li>Sub Menu-1</li>
+                    <li>Sub Menu-1</li>
+                    <li>Sub Menu-1</li>
+                </ul>
+            </li>
+
+            <li>Mobiles <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-2</li>
+                    <li>Sub Menu-2</li>
+                    <li>Sub Menu-2</li>
+                    <li>Sub Menu-2</li>
+                </ul>
+            </li>
+
+            <li>Computers <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-3</li>
+                    <li>Sub Menu-3</li>
+                    <li>Sub Menu-3</li>
+                    <li>Sub Menu-3</li>
+                </ul>
+            </li>
+
+            <li>Furniture <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-4</li>
+                    <li>Sub Menu-4</li>
+                    <li>Sub Menu-4</li>
+                    <li>Sub Menu-4</li>
+                </ul>
+            </li>
+
+            <li>Clothing <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-5</li>
+                    <li>Sub Menu-5</li>
+                    <li>Sub Menu-5</li>
+                    <li>Sub Menu-5</li>
+                </ul>
+            </li>
+
+            <li>Skincare<i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-6</li>
+                    <li>Sub Menu-6</li>
+                    <li>Sub Menu-6</li>
+                    <li>Sub Menu-6</li>
+                </ul>
+            </li>
+
+            <li>Makeup <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-7</li>
+                    <li>Sub Menu-7</li>
+                    <li>Sub Menu-7</li>
+                    <li>Sub Menu-7</li>
+                </ul>
+            </li>
+
+            <li>Health <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-8</li>
+                    <li>Sub Menu-8</li>
+                    <li>Sub Menu-8</li>
+                    <li>Sub Menu-8</li>
+                </ul>
+            </li>
+
+            <li>Toys <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-9</li>
+                    <li>Sub Menu-9</li>
+                    <li>Sub Menu-9</li>
+                    <li>Sub Menu-9</li>
+                </ul>
+            </li>
+
+            <li>Grocery <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-10</li>
+                    <li>Sub Menu-10</li>
+                    <li>Sub Menu-10</li>
+                    <li>Sub Menu-10</li>
+                </ul>
+            </li>
+
+            <li>Gaming <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-11</li>
+                    <li>Sub Menu-11</li>
+                    <li>Sub Menu-11</li>
+                    <li>Sub Menu-11</li>
+                </ul>
+            </li>
+
+            <li>Stationary <i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-12</li>
+                    <li>Sub Menu-12</li>
+                    <li>Sub Menu-12</li>
+                    <li>Sub Menu-12</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="slider">
+        <div id="slider" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="c">
+                <img src="pexels-janetrangdoan-1092730.jpg" class="d-block w-100" >
+              </div>
+              <div class="carousel-item" id="c">
+                <img src="pexels-fotoaibe-1643383.jpg" class="d-block w-100" >
+              </div>
+              <div class="carousel-item" id="c">
+                <img src="pexels-natalie-bond-320378-3759657.jpg" class="d-block w-100" >
+              </div>
+              <div class="carousel-item" id="c">
+                <img src="pexels-fotios-photos-1006293.jpg" class="d-block w-100" >
+              </div>
+              <div class="carousel-item" id="c">
+                <img src="pexels-frendsmans-1926768.jpg" class="d-block w-100" >
+              </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              
+              </div>
+            
+          </div>
+          
+    </div>
+  </section>  
+<section class="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="pexels-zaktech90-1027130.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="pexels-pixabay-280250.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="pexels-69816215-8365688.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="on-class">
+    <div class="container">
+        <div class="title">
+            <h2>On Sale</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product1">
+                   <a href="product.html"> <img src="pexels-tdcat-437037.jpg" class="d"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                            <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                            <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                        
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                            <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Smart Watch</h3>
+                    <h5>$40.00</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <a href="product.html"><img src="pexels-guru-praveen-169878542-15181109.jpg" class="d"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop" >
+                        <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                        <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                    
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                        <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>saree</h3>
+                    <h5>$10.00</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <a href="product.html"><img src="pexels-bertellifotografia-594301.jpg" class="d"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                            <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                            <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                        
+    
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                            <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+    
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Umbrella</h3>
+                    <h5>$5.00</h5>
+                </div>
+            </div>
+    
+        
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <a href="product.html"><img src="pexels-dhanno-21837397.jpg" class="d"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                        <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                        <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                    
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                        <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Purse</h3>
+                    <h5>$8.00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+
+
+<section class="on-class">
+    <div class="container new">
+        <div class="title">
+            <h2>New Products</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-pixabay-158648 (1).jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                            <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                            <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                        
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                            <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Jacket</h3>
+                    <h5>$15.00</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-shiny-diamond-3762882.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop" >
+                        <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                        <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                    
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                        <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Serum</h3>
+                    <h5>$13.00</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-pixabay-159866.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                            <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                            <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                        
+    
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                            <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+    
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>book</h3>
+                    <h5>$5.00</h5>
+                </div>
+            </div>
+    
+        
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-nadine-wuchenauer-695910-1528975.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                        <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                        <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                    
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                        <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Mirror</h3>
+                    <h5>$6.00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>   
+
+
+<section class="on-class">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-jessbaileydesign-788946.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                            <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                            <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                        
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                            <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Mobile</h3>
+                    <h5>$18.00</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-garrettmorrow-610945.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop" >
+                        <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                        <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                    
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                        <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Head Phones</h3>
+                    <h5>$9.00</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-dtanpt-991679.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                            <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                            <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                        
+    
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                            <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+    
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>skirt</h3>
+                    <h5>$7.00</h5>
+                </div>
+            </div>
+    
+        
+
+            <div class="col-md-3">
+                <div class="product1">
+                    <img src="pexels-gabriel-peter-219375-1188649.jpg" class="d">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-white" title="Quick Shop">
+                        <i class="fa-solid fa-eye fa-shake" id="e"  style="color: #6e28c3;"></i>
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Wishlist">
+                        <i class="fa-solid fa-heart fa-beat" id="e" style="color: #e22c84;"></i>
+                    
+
+                        </button>
+                        <button type="button" class="btn btn-white" title="Add To Cart">
+                        <i class="fa-solid fa-cart-shopping fa-bounce"id="e" style="color: #477ad1;"></i>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="product2 text-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <h3>Steel Bottle</h3>
+                    <h5>$3.00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>   
+
+
+<section class="web">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 feature">
+                <img src="Screenshot_6-7-2024_101742_www.freepik.com.jpeg">
+                <div class="text">
+                    <p><b>100% Satisfactory</b> you get </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 feature">
+                <img src="Screenshot_6-7-2024_101836_www.freepik.com.jpeg">
+                <div class="text">
+                    <p><b>Best Quality</b> of products </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 feature">
+                <img src="Screenshot_6-7-2024_101920_www.freepik.com.jpeg">
+                <div class="text">
+                    <p><b>Money return</b> Policy we offer</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 feature">
+                <img src="Screenshot_6-7-2024_101614_www.freepik.com.jpeg">
+                <div class="text">
+                    <p><b>Every Payment </b> Available</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3 v">
+                <h1>Useful Links</h1>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Return Policy</p>
+                <p>Discount Coupons</p>
+            </div>
+
+            <div class="col-md-3 v">
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Career</p>
+                <p>Affliate</p>
+            </div>
+
+            <div class="col-md-3 v">
+                <h1>Follow Us on</h1>
+                <p><i class="fa-brands fa-facebook fa-fade" style="color: #2e5dad;"></i>Facebook</p>
+                <p><i class="fa-brands fa-youtube fa-bounce" style="color: #ee1717;"></i>Youtube</p>
+                <p><i class="fa-brands fa-linkedin fa-fade" style="color: #4b73b9;"></i>LinkedIn</p>
+                <p><i class="fa-brands fa-twitter fa-shake" style="color: #8bc9f8;"></i>Twitter</p>
+            </div>
+
+            <div class="col-md-3 g">
+                <h1>Download App</h1>
+                <img src="icons8-google-play-store-48.png"><p>Android</p>
+                <img src="icons8-apple-48.png" id="f"><p >Iphone</p>
+            </div>
+
+
+
+        </div>
+        <hr id="o">
+        <p class="copyright">Made with <i class="fa-solid fa-heart fa-beat" style="color: #ee113d;"></i> by Jeevitha Ravikumar</p>
+    </div>
+</section>
+
+    
+ 
+
+  <script>
+
+    function openmenu()
+    {
+        document.getElementById("side-menu").style.display="block";
+        document.getElementById("menu-btn").style.display="none";
+        document.getElementById("close-btn").style.display="block";
+    }
+    function closemenu()
+    {
+        document.getElementById("side-menu").style.display="none";
+        document.getElementById("menu-btn").style.display="block";
+        document.getElementById("close-btn").style.display="none";
+    }
+  </script>
+
+
+
+</body>
+</html>
